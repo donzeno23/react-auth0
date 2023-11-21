@@ -1,0 +1,19 @@
+# requirements.in
+uvicorn
+fastapi
+pydantic-settings
+secure
+SQLAlchemy
+# sqlalchemy[asyncio]
+sqlmodel
+mysql-connector-python
+asyncmy
+greenlet
+asyncio
+# pymysql
+# mysqlclient
+aiomysql
+PyJWT
+bcrypt
+passlib
+email-validator
