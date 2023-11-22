@@ -13,7 +13,7 @@ import { ProtectedPage } from "./pages/protected-page";
 import { PublicPage } from "./pages/public-page";
 
 export const App = () => {
-  const { isLoading, error, user, isAuthenticated } = useAuth0();
+  const { isLoading, error, isAuthenticated } = useAuth0();
   console.log("isLoading="+isLoading);
 
   // TODO: need to fix this - should be the opposite

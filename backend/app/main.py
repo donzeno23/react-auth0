@@ -65,7 +65,7 @@ async def http_exception_handler(request, exc):
     return JSONResponse({"message": message}, status_code=exc.status_code)
 
 
-@app.get("/api/message/public")
+@app.get("/api/messages/public")
 def public():
     return {"text": "This is a public message"}
 

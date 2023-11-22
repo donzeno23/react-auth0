@@ -14,6 +14,7 @@ asyncio
 # mysqlclient
 aiomysql
 PyJWT
+cryptography
 bcrypt
 passlib
 email-validator
